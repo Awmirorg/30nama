@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="shortcut icon" href="30nama.ico" type="image/x-icon">
+  <title>Amirhossein Hemmati</title>
+  <style>
+    body {
+      background-color: darkred;
+    }
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+      padding-right: 0px;
+      padding-left: 0px;
+    }
+
+    .icon {
+      width: 50px;
+      height: 50px;
+    }
+
+    .modal-backdrop {
+      position: static;
+    }
+
+    .form-control {
+      color: white;
+    }
+
+    .peaky {
+      width: 100vh;
+      height: 550px;
+    }
+
+    .witcher {
+      width: 100vh;
+      height: 550px;
+    }
+
+    .vallhala {
+      width: 100vh;
+      height: 550px;
+    }
+
+    .haji {
+      height: 138px;
+    }
+
+    .list-group-item {
+      color: red;
+      font-size: 30px;
+      justify-content: center;
+    }
+
+    .dokme {
+      width: 100%;
+      height: 100px;
+
+    }
+
+    .list-group-item {
+      background-color: rgb(36, 31, 31);
+    }
+
+    .dokmee{
+      color: white;
+      width: 150px;
+      padding-top:;
+      margin: 0 auto;
+    }
+    footer{
+      
+    }
+
+    .offcanvas-body{
+    background-color: red !important;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid ">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="pics/30nama.png" class="icon" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <button type="button" class="btn btn-danger " data-bs-toggle="button" data-bs-target="#staticBackdrop">
+                Home
+              </button>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <li class="nav-item">
+              <button type="button" class="btn btn-danger" data-bs-toggle="button" data-bs-target="#staticBackdrop">
+                Profile
+              </button>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <li class="nav-item">
+              <button type="button" class="btn btn-danger" data-bs-toggle="button" data-bs-target="#staticBackdrop">
+                Archive
+              </button>
+            </li>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Enrollment
+            </button>
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content bg-danger">
+                  <div class="modal-header bg-danger">
+                    <h5 class="modal-title " id="staticBackdropLabel">Enrollment of 30nama</h5>
+                    <button type="button" class="btn-close bg-danger" data-bs-dismiss="modal"
+                      aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="col-12  bg-danger  p-5 ">
+                      <form action="" class="row">
+                        <div class="col-12 mb-4">
+                          <h2>User page</h2>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                          <label for="fild1" class="form-label">Name</label>
+                          <input type="text" class="form-control bg-dark" id="fild1" placeholder="Name">
+                        </div>
+                        <div class="col-12 col-md-6 mb-3">
+                          <label for="fild2" class="form-label">Surname</label>
+                          <input type="text" class="form-control bg-dark" id="fild2" placeholder="Surname">
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="fild3" class="form-label">Phone Number</label>
+                          <input type="text" class="form-control bg-dark" id="fild3" placeholder="666-22-44">
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="fild4" class="form-label">Email address</label>
+                          <input type="email" class="form-control bg-dark" id="fild4" placeholder="name@example.com">
+                        </div>
+                        <div class="col-12 mb-3">
+                          <label for="fild4" class="form-label">Address</label>
+                          <input type="text" class="form-control bg-dark" id="fild4" placeholder="Address">
+                        </div>
+
+                        <div class="col-12 col-lg-5 mb-3">
+                          <label for="fild5" class="form-label">City</label>
+                          <input type="text" class="form-control bg-dark" id="fild5" placeholder="">
+                        </div>
+                        <div class="col-12 col-lg-5 mb-3">
+                          <label for="fild6" class="form-label">State</label>
+                          <select name="" class="form-select bg-dark" id="">
+                            <option value="">Tehran</option>
+                          </select>
+                        </div>
+                        <div class="col-12 col-lg-2 mb-3">
+                          <label for="fild7" class="form-label">Zip</label>
+                          <input type="text" class="form-control bg-dark" id="fild7" placeholder="">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12 pt-4 text-center">
+                          <button class="btn btn-dark">Save Profile</button>
+                        </div>
+
+                      </form>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-dark">Agree</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2 bg-white  " type="search" placeholder="Search">
+            <button class="btn btn-danger" type="submit">Search</button>
+          </form>
+
+        </div>
+      </div>
+    </nav>
+    <div class="row p-0">
+      <div class="col-md-6 p-0">
+        <div class="list-group list-group-flush ">
+          <a href="https://30nama.com/" class="list-group-item list-group-item-action bg- haji" aria-current="true">
+            <button type="button" class="btn btn-danger dokme" data-bs-toggle="button" data-bs-target="#staticBackdrop">
+              30nama offical
+            </button>
+          </a>
+          <a href="https://moviesnation.cc/download-peaky-blinders-english-season-1-6-480p-720p/"
+            class="list-group-item list-group-item-action  haji"> <button type="button" class="btn btn-danger dokme "
+              data-bs-toggle="button" data-bs-target="#staticBackdrop">
+              Download Peaky blinders
+            </button></a>
+          <a href="https://bazenation.com/2022/series-vikings-valhalla-season-1/"
+            class="list-group-item list-group-item-action haji"> <button type="button" class="btn btn-danger dokme"
+              data-bs-toggle="button" data-bs-target="#staticBackdrop">
+              Download vallhala
+            </button></a>
+          <a href="https://tumundomusical.com/download-movie-the-witcher-season-1-episode-1-8-complete-series-mp4-01/"
+            class="list-group-item list-group-item-action haji"> <button type="button" class="btn btn-danger dokme"
+              data-bs-toggle="button" data-bs-target="#staticBackdrop">
+              Download the witcher
+            </button></a>
+        </div>
+      </div>
+      <div class="col-md-6 p-0">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="pics/peaky.jpg" class="d-block w-100 peaky" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pics/vallhala.jpg" class="d-block w-100 vallhala" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="pics/witcher.jpg" class="d-block w-100 witcher" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-center pt-5 pb-5">
+      <div class="col-12 col-lg-6  text-center">
+        <label for="customRange1" class="form-label"><button type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0" class="active bg-danger dokmee" aria-current="true" aria-label="Slide 1" disabled>mizan rezayat?</button></label>
+        <input type="range" class="form-range" id="customRange1">
+        <button class="btn btn-danger " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Statutes</button>
+      </div>
+    </div>
+  </div>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">By Order Of The Amirhossein Hemmati</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    Personal protective equipment;
+    Use of radios and mobile phones;
+    Smoking;
+    Restricted areas;
+    Hot works;
+    Traffic management systems;
+    Pedestrian routes;
+    Site tidiness;
+    Fire prevention;
+    Permit-to-work systems; and
+    Emergency arrangements.
+    The rules should be clear and easily understandable and should be brought to the attention of everyone on site who should be expected to follow them.  Any special requirements such as the need to have translations of the rules available for non-English speaking workers on site should be considered.
+    
+    Clients may insist on certain health and safety precautions, especially where their business continues at the premises while construction work is in progress.  It may assist everyone if site rules are applied.
+    
+    Make it clear where your site rules apply and where the client premises rules apply.  Make sure everybody knows and follows the rules relevant to them.
+    
+    Site induction
+    Every site worker must be given a suitable site induction.  The induction should be site specific and highlight any particular risks (including those listed in Schedule 3 of the CDM 2015 Regulations) and control measures that those working on the project need to know about.  The following issues should be considered:
+    
+    Senior management commitment to health and safety;
+    Outline of the project;
+    Management of the project;
+    First-aid arrangements;
+    Accident and incident reporting arrangements;
+    Arrangements for briefing workers on an ongoing basis, e.g. toolbox talks;
+    Arrangements for consulting the workforce on health and safety matters;
+    Individual worker's responsibility for health and safety.
+    Site inductions should also be provided to those who do not regularly work on the site, but who visit it on an occasional (e.g. architects) or once-only basis (e.g. students).  The inductions should be proportionate to the nature of the visit.  Inductions provided to escorted visitors need not have the detail that unescorted visitors should have.  Escorted visitors only need to be made aware of the main hazards they may be exposed to and the control measures.
+  </div>
+</div>
+<div class="container-fluid mt-4">
+    <div class="row mt-3 p-2 pt-3">
+<div class="col-4  bg-dark text-white">
+
+ 
+ <p class="h4 fw-light">About us</p>
+ <p class="">payment method </p>
+ <p class="">MY Account </p>
+ <p class="">Return </p>
+ <p class="">FAQ </p>
+ <p class="">CARE & Sensition </p>
+
+</div>
+<div class="col-4  bg-dark text-white">
+ 
+ 
+ <p class="h4 fw-light">Boutic Services</p>
+ <p class="">Contact Us  </p>
+ <p class="">Book An Appoitment </p>
+ <p class="">Career </p>
+ <p class="">FAQ </p>
+ <p class=""></p>
+</div>
+
+<div class="col-4  bg-dark text-white ">
+
+ 
+ <p class="h4 fw-light">The house Of chanel</p>
+ <p class="">Careers</p>
+ <p class="">Information About CCPA Do not sell</p>
+ <p class="">Return </p>
+ <p class="">FAQ </p>
+ <p class="">CARE & Sensition </p>
+
+</div>
+
+</div>
+</div>
+  <div class="input-group mb-3 col-7">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
